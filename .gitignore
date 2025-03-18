@@ -1,0 +1,16 @@
+# Ignore the dataset folder
+dataset/
+
+# Ignore the model file
+trainer.yml
+
+# Ignore the label mapping file
+label_mapping.txt
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment (if any)
+venv/
+face.py
