@@ -1,16 +1,46 @@
-# Ignore the dataset folder
-dataset/
+# Ignore virtual environments
+myenv/
+env/
+.venv/
+venv/
 
-# Ignore the model file
-trainer.yml
-
-# Ignore the label mapping file
-label_mapping.txt
-
-# Ignore Python cache files
+# Ignore Python cache and compiled bytecode
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.py[cod]
 
-# Ignore the virtual environment (if any)
-venv/
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore database files
+face_recognition.db
+
+# Ignore dataset and training image folders (if not needed in repo)
+dataset/
+known_faces/
+saved_faces/
+training_images/
+
+# Ignore specific unnecessary Python files
+pil.py
 face.py
+trycam.py
+
+# Ignore wheel/distribution files
+*.whl
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore logs, temp, and backup files
+*.log
+*.tmp
+*.bak
+*.swp
