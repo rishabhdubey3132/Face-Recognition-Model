@@ -11,6 +11,7 @@ __pycache__/
 *.pyd
 *.py[cod]
 
+<<<<<<< HEAD
 # Ignore system files
 .DS_Store
 Thumbs.db
@@ -26,6 +27,11 @@ training_images/
 
 # Ignore specific unnecessary Python files
 pil.py
+=======
+
+# Ignore the virtual environment (if any)
+venv/
+>>>>>>> 10b9a8008b5e56ccfdfb547531ef8c8ce17ae465
 face.py
 trycam.py
 
